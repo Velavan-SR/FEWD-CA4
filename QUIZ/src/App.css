@@ -1,0 +1,147 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  margin-top: 10px;
+}
+
+nav h1{
+  color: #520082;
+  font-weight: 900;
+  font-size: xx-large;
+}
+
+.logo .dark{
+  background-color: #3E3E3E;
+  color: white;
+}
+
+nav button{
+  height: 5vh;
+  width: 7vw;
+  border-radius: 15px;
+  font-size: medium;
+  letter-spacing: 1.8px;
+  background-color: #520082;
+  color: white;
+  cursor: pointer;
+}
+
+.empty{
+  width: 7vw;
+}
+
+#mode{
+  margin-right: 4vw;
+}
+
+#main-container{
+  transform: translate(25%,10%);
+  height: 75vh;
+  width: 65vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#quiz-container{
+  height: 60vh;
+  width: 100%;
+  border-radius: 15px;
+  background-color: #A147E2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  transform: translateX(-3%);
+  height: 25vh;
+  width: 45vw;
+}
+
+li button{
+  height: 6vh;
+  width: 17vw;
+  border-radius: 15px;
+  font-size: medium;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+}
+
+li button:hover{
+  background-color: #520082;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+  transform: translateY(-10%);
+}
+
+#bottom-buttons{
+  height: 9vh;
+  width: 50vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#bottom-buttons button{
+  height: 6vh;
+  width: 14vw;
+  background-color: #520082;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: medium;
+  font-weight: 600;
+  transition: transform 0.4s ease;
+}
+
+#bottom-buttons button:hover{
+  background-color: #520082;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+  transform: translateY(-10%);
+}
+
+#result-container{
+  transform: translate(25%,10%);
+  height: 75vh;
+  width: 65vw;
+  background-color: #A147E2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  border-radius: 15px;
+}
+
+#result-container button{
+  height: 8vh;
+  width: 16vw;
+  border-radius: 15px;
+  background-color: white;
+  color: black;
+  font-size: large;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.dark{
+  background-color: white;
+  color: black;
+}
+
+#bottom-buttons .dark{
+  background-color: white;
+  color: black;
+}
