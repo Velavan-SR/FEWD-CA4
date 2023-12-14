@@ -64,6 +64,7 @@ const Quiz = (props) => {
     }
 
     setcurrentQuestion((prevIndex) => prevIndex + 1);
+    handleLowlight()
   };
 
   const handleHighlight = () => {
@@ -77,7 +78,7 @@ const Quiz = (props) => {
   const reset = () => {
     setcurrentQuestion(0);
     setScore(0);
-    setHighlightState(false); 
+    setHighlightState(false);
   };
 
   const percentage = () => {
